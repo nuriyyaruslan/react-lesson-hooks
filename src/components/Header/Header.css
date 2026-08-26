@@ -1,0 +1,15 @@
+.header{
+    background-color: blue;
+    color:#fff;
+    text-align: center;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content h2{
+    margin: 0;
+}
