@@ -1,17 +1,24 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { List,ListItem } from '@mui/material';
+
 
 function Navbar() {
     return ( 
-        <ul className="navbar">
-            {/* <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li> */}
-
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-        </ul>
+        <List className="navbar">
+            <ListItem> 
+                <Link to="/">Home</Link>
+            </ListItem>
+            <ListItem>
+                <Link to="/about">About Us</Link>
+            </ListItem>
+            <ListItem>
+                <Link to="/posts">Posts</Link>
+            </ListItem>
+            <ListItem>
+                <Link to="/contact">Contact</Link>
+            </ListItem>
+        </List>
      );
 }
 
