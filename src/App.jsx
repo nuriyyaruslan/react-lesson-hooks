@@ -5,6 +5,7 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
 import Posts from './pages/Posts/Posts';
+import { Counter } from './components/Counter/Counter';
 
 import {
   BrowserRouter as Router,
@@ -24,6 +25,7 @@ function App() {
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/posts' element={<Posts/>} />
+        <Route path='/counter' element={<Counter/>} />
       </Routes>
       <Footer/>
     </Router>

@@ -16,6 +16,9 @@ function Navbar() {
                 <Link to="/posts">Posts</Link>
             </ListItem>
             <ListItem>
+                <Link to="/counter">Counter</Link>
+            </ListItem>
+            <ListItem>
                 <Link to="/contact">Contact</Link>
             </ListItem>
         </List>
